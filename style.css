@@ -105,9 +105,7 @@ banner style
 /*===================
 Product page style
 =============*/
-.product-page{
-    height: 100vh;
-}
+
 .product-page > p{
     text-align: center;
     font-size: 30px;
@@ -126,9 +124,10 @@ Product page style
     gap: 30px;
 }
 .product{
-    height: 350px;
+    height: 360px;
     width: 250px;
-    border: 1px solid blue;
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
     border-radius: 5px;
     padding-top: 10px;
     justify-content: flex-start;
@@ -149,7 +148,7 @@ Product page style
 }
 .product-detial p{
     font-size: 12px;
-    margin-top: 5px;
+    margin-top: 5x;
     color: #787885;
 }
 
@@ -184,3 +183,24 @@ see more button style
     text-align: right;
 }
 
+/*================================================
+footer style 
+=====================================*/
+footer{
+    
+    color: white;
+    text-align: center;
+    background-color: darkblue;
+}
+footer h2{
+    padding: 10px 0 0 0;
+    font-size: 15px;
+}
+footer p{
+    font-size: 10px;
+}
+footer .fab{
+    font-size: 10px;
+    padding: 0 10px 10px 0;
+    background-color: transparent;
+}
