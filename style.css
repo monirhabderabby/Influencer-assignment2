@@ -2,6 +2,7 @@
 my fonts 
 -----------*/
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Outfit:wght@500;700&family=Poppins:wght@500&family=Source+Code+Pro:ital@1&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Outfit:wght@500;700&family=Poppins:wght@500&family=Shippori+Antique&family=Source+Code+Pro:ital@1&family=Ubuntu&display=swap');
 
 /*------------------
 default style 
@@ -15,7 +16,7 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Outfit', sans-serif, 'Shippori Antique', sans-serif;
 }
 
 header{
@@ -32,6 +33,7 @@ common style
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 50px;
+    
 }
 
 /*----------------
@@ -47,6 +49,7 @@ nav bar style
     font-size: 30px;
     padding: 10px;
     cursor: pointer;
+    font-family: 'Shippori Antique';
 }
 .menu ul{
     display: flex;
@@ -99,6 +102,85 @@ banner style
     color: white;
 }
 
+/*===================
+Product page style
+=============*/
+.product-page{
+    height: 100vh;
+}
+.product-page > p{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 5%;
     
+}
+.logos{
+    margin: 5% auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+.product{
+    height: 350px;
+    width: 250px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    padding-top: 10px;
+    justify-content: flex-start;
+    
+}
 
+
+/* product detail start */
+.product-detial{
+
+    padding: 12px 15px;
+}
+#product{
+    font-size: 30px;
+}
+.product-detial h3{
+    font-weight: 500;
+}
+.product-detial p{
+    font-size: 12px;
+    margin-top: 5px;
+    color: #787885;
+}
+
+.img img{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-top: auto;
+    width: 90%;
+    border-radius: 5px;
+    
+} 
+/* Rating star style */
+.fa-star{
+    color: gold;
+    font-size: 10px;
+}
+
+/*------------------------
+see more button style
+---------------- */
+.sm-btn-arrow{
+    font-size: 10px;
+}
+.sm-btn{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    color: darkblue;
+}
+.sm-btn a{
+    text-align: right;
+}
 
