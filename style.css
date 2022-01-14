@@ -1,0 +1,93 @@
+/*----------------
+my fonts 
+-----------*/
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Outfit:wght@500;700&family=Poppins:wght@500&family=Source+Code+Pro:ital@1&family=Ubuntu&display=swap');
+
+/*------------------
+default style 
+---------------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Outfit', sans-serif;
+}
+
+header{
+    height: 100vh;
+    background-image: url("images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*-----------------
+common style 
+--------------*/
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+/*----------------
+nav bar style
+-------------*/
+.navbar{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo h2{
+    font-size: 30px;
+}
+.menu ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.menu ul a{
+    font-size: 16px;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+/*------------------
+banner style 
+--------------*/
+.banner{
+    height: (100vh - 80px);
+    display: flex;
+    
+    
+}
+.banner-heading{
+    width: 50%;
+    margin-top: 20%;
+
+}
+.banner-heading h1{
+    font-size: 40px;
+}
+.banner-heading p{
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+.prebook-btn{
+    font-size: 16px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.fa-arrow-right{
+    padding-left: 5px;
+}
+
+    
+
+
