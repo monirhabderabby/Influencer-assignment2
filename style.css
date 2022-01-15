@@ -26,6 +26,21 @@ header{
     background-size: cover;
 }
 
+@keyframes sliding{
+    25%{
+        background-image: url("images/background.jpg");
+    }
+    50%{
+        background-color: tomato;
+    }
+    75%{
+        background-image: url("images/background.jpg");
+    }
+    100%{
+        background-image: url("images/background.jpg");
+    }
+}
+
 /*-----------------
 common style 
 --------------*/
@@ -175,13 +190,14 @@ see more button style
     font-size: 10px;
 }
 .sm-btn{
-    width: 100%;
+    width: 90%;
     display: flex;
     justify-content: right;
-    color: darkblue;
+    color: #1c1c1c;
 }
 .sm-btn a{
     text-align: right;
+    color: #1c1c1c;
 }
 
 /*------------------------------
@@ -245,4 +261,11 @@ footer .fab{
     font-size: 10px;
     padding: 0 10px 10px 0;
     background-color: transparent;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+a:visited{
+    color: white;
 }
