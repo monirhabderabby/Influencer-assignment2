@@ -285,7 +285,7 @@ a:visited{
 
 
 /*================================
-Media Queries------
+Media Queries for Mobile------
 ==============================*/
 @media only screen and (max-width: 688px){
     
@@ -349,3 +349,65 @@ Media Queries------
         color: white;
     }
 }
+/*================================
+Media Queries for Tablet------
+==============================*/
+@media only screen and (max-width: 767px){
+    .navbar{
+        height: 50px;
+    }
+    .logo h2{
+        margin-left: 20px;
+    }
+    .menu{
+        display: flex;
+        margin-right: 30px;
+        
+    }
+    .menu ul a{
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+    /* banner style */
+    .banner-heading{
+        justify-content: center;
+        margin-left: 30px;
+    }
+
+    /* Products style */
+    .products{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .products > p{
+        margin-top: 5%;
+    }
+    .container{
+        padding: 0 2px;
+    }
+    .featured-products{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 5px 0px;
+        gap: 10px;
+        font-size: 12px;
+    }
+    .f-content{
+        margin-right: 10px;
+    }
+    .f-content h1{
+        font-size: 20px;
+        margin-bottom: 0;
+    }
+    .f-content p{
+        line-height: -1.5;
+    }
+    .f-content p span{
+        display: none;
+    }
+    .f-content button{
+        width: 100px;
+        padding: 4px 5px;
+    }
+}
+
