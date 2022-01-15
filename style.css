@@ -61,6 +61,7 @@ nav bar style
     font-size: 16px;
     padding: 10px 15px;
     text-decoration: none;
+    color: #1c1c1c;
 }
 a:hover{
     border-bottom: 2px solid darkblue;
@@ -120,7 +121,7 @@ Product page style
 }
 .products{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 30px;
 }
 .product{
@@ -183,6 +184,47 @@ see more button style
     text-align: right;
 }
 
+/*------------------------------
+Featured products style 
+--------------------*/
+.featured-products{
+    margin-top: 5%;
+    height: 40vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: 'Outfit';
+}
+.featured-left{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.featured-right{
+    display: flex;
+    align-items: center;
+}
+.f-content h1{
+   font-size: 30px;
+   margin-bottom: 20px;
+   
+}
+.f-content p{
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.f-content button{
+    width: 120px;
+    padding: 5px 20px;
+    background-color: transparent;
+    border: 2px solid black;
+    transition: 0.4s;
+    border-radius: 5px;
+}
+.f-content button:hover{
+    color: white;
+    background-color: darkblue;
+}
+
 /*================================================
 footer style 
 =====================================*/
@@ -190,7 +232,7 @@ footer{
     
     color: white;
     text-align: center;
-    background-color: darkblue;
+    background-color: #1c1c1c;
 }
 footer h2{
     padding: 10px 0 0 0;
