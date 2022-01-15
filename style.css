@@ -211,7 +211,7 @@ Featured products style
 --------------------*/
 .featured-products{
     margin-top: 5%;
-    height: 40vh;
+    margin-bottom: 5%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     font-family: 'Outfit';
@@ -274,4 +274,46 @@ footer .fab{
 }
 a:visited{
     color: white;
+}
+
+
+
+/*================================
+Media Queries------
+==============================*/
+@media only screen and (max-width: 600px){
+    
+    /* header style */
+    header{
+        height: 100vh;
+    }
+    .banner-heading h1{
+        font-size: 30px;
+    }
+    .banner-heading p{
+        font-size: 20px;
+    }
+    
+    .menu{
+        display: none;
+    }
+    .logo h2{
+        font-size: 20px;
+    }
+
+    /* Products style */
+    .products{
+        display: grid;
+        margin: auto;
+        grid-template-columns: 1fr;
+    }
+    .sm-btn{
+        color: black;
+        justify-content: left;
+    }
+    .featured-products{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
 }
