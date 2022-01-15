@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <style>
+        main{
+        height: 100vh;
+        background-image: url("images/slide1.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+        .login-page{
+            display: flex;
+            justify-content: center;
+            
+        }
+        .login-form{
+            margin-top: 30vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .login-form input{
+            font-size: 16px;
+            padding: 5px 10px;
+            margin: 10px auto;
+            border-radius: 10px;
+        }
+        .login-form button{
+            font-size: 16px;
+            padding: 5px 10px;
+            margin-top: 10px;
+            width: 100px;
+            border-radius: 10px;
+            color: black;
+            background-color: transparent;
+            transition: 0.5s;
+        }
+        button:hover{
+            background-color: darkblue;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="login-page">
+            <form action="" class="login-form">
+                <input type="text" placeholder="Your E-mail" required>
+                <input type="password" placeholder="Your Password" required>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
